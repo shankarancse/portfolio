@@ -1,0 +1,53 @@
+.edu-timeline {
+  display: flex;
+  gap: 22px;
+  max-width: 620px;
+  position: relative;
+}
+
+.edu-timeline-marker {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background: var(--surface);
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  box-shadow: 0 0 22px rgba(34, 197, 94, 0.25);
+}
+
+.edu-timeline-content {
+  padding: 22px 24px;
+  flex: 1;
+}
+
+.edu-timeline-range {
+  font-size: 12.5px;
+  color: var(--accent);
+  margin-bottom: 10px;
+}
+
+.edu-timeline-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.edu-timeline-college {
+  font-size: 14px;
+  color: var(--text-primary);
+  margin-bottom: 2px;
+}
+
+.edu-timeline-university {
+  font-size: 13.5px;
+  color: var(--text-secondary);
+  margin-bottom: 16px;
+}
+
+.edu-timeline-tag {
+  display: inline-block;
+}

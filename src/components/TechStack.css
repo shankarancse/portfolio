@@ -1,0 +1,47 @@
+.techstack {
+  border-top: 1px solid var(--border-soft);
+  border-bottom: 1px solid var(--border-soft);
+  background: var(--bg-alt);
+  overflow: hidden;
+  padding: 18px 0;
+  position: relative;
+  z-index: 1;
+}
+
+.techstack-track {
+  display: flex;
+  gap: 40px;
+  width: max-content;
+  animation: marquee 26s linear infinite;
+}
+
+.techstack-item {
+  font-size: 13px;
+  color: var(--text-secondary);
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.techstack-item::before {
+  content: "\2022";
+  color: var(--accent);
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .techstack-track {
+    animation: none;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
