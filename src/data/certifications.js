@@ -20,7 +20,7 @@ const certifications = [
     issuer: "IBM SkillsBuild",
     date: "26/2/2026",
     credentialId: "",
-    credentialUrl: "https://www.credly.com/earner/earned/badge/6b8e6cec-7180-4a52-9842-f79fe6cd0eaf",
+    credentialUrl: "https://www.credly.com/badges/43d1fa62-8bf4-4eb9-a440-04c6e2af3974",
   },
   {
     id: "nasscom",
