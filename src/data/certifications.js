@@ -10,25 +10,25 @@ const certifications = [
     id: "aws-educate",
     title: "AWS Educate",
     issuer: "Amazon Web Services",
-    date: "", // e.g. "2025"
+    date: "11/12/2025", // e.g. "2025"
     credentialId: "",
-    credentialUrl: "",
+    credentialUrl: "https://www.credly.com/earner/earned/badge/6b8e6cec-7180-4a52-9842-f79fe6cd0eaf",
   },
   {
     id: "ibm-genai",
     title: "IBM Generative AI",
     issuer: "IBM SkillsBuild",
-    date: "",
+    date: "26/2/2026",
     credentialId: "",
-    credentialUrl: "",
+    credentialUrl: "https://www.credly.com/earner/earned/badge/6b8e6cec-7180-4a52-9842-f79fe6cd0eaf",
   },
   {
     id: "nasscom",
     title: "NASSCOM",
     issuer: "NASSCOM FutureSkills Prime",
-    date: "",
-    credentialId: "",
-    credentialUrl: "",
+    date: "21/02/2026",
+    credentialId: "26210266267",
+    credentialUrl: "https://www.futureskillsprime.in/iDH/user/credential/view/32914-67175a37-0ef4-11f1-bdec-005056b48b54",
   },
 ];
 

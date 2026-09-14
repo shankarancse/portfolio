@@ -14,21 +14,21 @@
 const personalInfo = {
   name: "R. Shankaran",
   shortName: "Shankaran",
-  initials: "RS",
+  initials: "SKN",
 
   role: "Computer Science Engineering Student | Python Developer | Aspiring Software Engineer",
 
   // Replace with your real Gmail / preferred email address
-  email: "your-email@gmail.com",
+  email: "shankaran730@gmail.com",
 
   github: {
-    username: "yourusername",
-    url: "https://github.com/yourusername",
+    username: "shankarancse",
+    url: "https://github.com/shankarancse",
   },
 
   linkedin: {
-    username: "yourusername",
-    url: "https://www.linkedin.com/in/yourusername",
+    username: "Shankaran R",
+    url: "https://www.linkedin.com/in/Shankaran-r-0ba0b9331",
   },
 
   // Drop your resume file into /public and point this to it,
@@ -42,7 +42,7 @@ const personalInfo = {
     college: "Mailam Engineering College",
     university: "Anna University",
     year: "3rd Year",
-    startYear: "2023", // edit if your actual admission year differs
+    startYear: "2024", // edit if your actual admission year differs
     status: "Present",
   },
 };
